@@ -6,4 +6,4 @@ matrix:
  include:
   - dist: xenial 
   - dist: trusty
-  - OS: OSX
+  - os: OSX
