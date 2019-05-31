@@ -1645,6 +1645,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Problems/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Problems.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Problems.dll": {}
+        }
       }
     }
   },
@@ -5747,6 +5757,11 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Problems/1.0.0": {
+      "type": "project",
+      "path": "../Problems/Problems.csproj",
+      "msbuildProject": "../Problems/Problems.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5754,6 +5769,7 @@
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "NUnit3TestAdapter >= 3.11.0",
+      "Problems >= 1.0.0",
       "nunit >= 3.11.0"
     ]
   },
@@ -5786,7 +5802,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\LUBABALO BUWA\\desktop\\mystuff\\Problems\\Problems.csproj": {
+              "projectPath": "C:\\Users\\LUBABALO BUWA\\desktop\\mystuff\\Problems\\Problems.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

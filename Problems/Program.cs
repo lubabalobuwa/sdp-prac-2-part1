@@ -4,6 +4,10 @@ namespace Problems
 {
     public class Program
     {
+        public string reverse(string input){
+            return "HEY";
+        }
+
         public string Prefix(string input)
         {
             if (input == null){
@@ -23,26 +27,16 @@ namespace Problems
                     counter++;
                 }
             }
-            /*
-            for (int i=0; i<words.Length;i++){
-                if(words[i]==""){
-                    words.RemoveAt(i);
-                }
-                else{
-                    counter++;
-                }
-            }
-             */
 
             int lngth = input.Length;
             int NumberOfWords = counter;
             output = $"{lngth},{NumberOfWords}:{input}";
             return output;
         }
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Program p = new Program();
+            Console.WriteLine(p.Prefix("Hello"));
         }
     }
 }
